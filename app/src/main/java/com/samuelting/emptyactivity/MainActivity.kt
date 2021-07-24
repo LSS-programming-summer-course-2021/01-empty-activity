@@ -10,6 +10,10 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         Log.v("Test", "Hello Samuel! verbose")
         Log.d("Test", "Hello Samuel! debug")
+        Log.i("Test", "Hello Samuel! info")
+        Log.w("Test", "Hello Samuel! warn")
         Log.e("Test", "Hello Samuel! error")
+        Log.wtf("Test", "Hello Samuel! assert")
+
     }
 }
